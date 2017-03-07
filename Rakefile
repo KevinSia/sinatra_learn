@@ -135,6 +135,9 @@ task "console" do
 	exec "irb -r./config/environments/init"
 end
 
+task "c" do
+	exec "irb -r./config/environments/init"
+end
 
 desc 'Initiate shotgun in localhost'
 task "server" do
